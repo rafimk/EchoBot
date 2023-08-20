@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "groupName": {
+      "value": "bot-test-rg"
+    },
+    "groupLocation": {
+      "value": "eastus"
+    },
+    "appServiceName": {
+      "value": "rafees-echo-bot"
+    },
+    "appServicePlanName": {
+      "value": ""
+    },
+    "appServicePlanLocation": {
+      "value": ""
+    },
+    "appServicePlanSku": {
+      "value": {
+        "name": "S1",
+        "tier": "Standard",
+        "size": "S1",
+        "family": "S",
+        "capacity": 1
+      }
+    },
+    "appType": {
+      "value": "MultiTenant"
+    },
+    "appId": {
+      "value": "71db79f4-e5b7-4ebb-8d6e-0430945af78a"
+    },
+    "appSecret": {
+      "value": ""
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    },
+    "tenantId": {
+      "value": ""
+    }
+  }
+}
